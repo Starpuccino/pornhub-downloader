@@ -1,5 +1,7 @@
 
-# pornhub-downloader
+# pornhub-downloader (modified for aira2)
+
+## This project is forked from blackmatch and modified for aira2, before using, make sure your aria2 jsonrpc interface is open. enjoy~
 
 ## Important Notice: This project is aim to study Node.js, so I will not update this project
 
@@ -90,15 +92,15 @@ If you don't need to set up proxy,just keep it empty string.
 
 `search`: the keyword for searching.
 
-`barWidth`: the progress bar width, should be between 20 to 120, set up 60 by default.
-
-`barFullChar`: the 'finished char' for the progress bar.
-
-`barEmptyChar`: the 'unfinished char' for the progress bar.
-
-`downloadDir`: the directory you want to save videos.
-
 `pathname`: the pathname of the page you want to do download, for example: you want to download files from this page `https://www.pornhub.com/user/xxx/favorite`, then you can set `pathname` as `/user/xxx/favorite`.
+
+`page`: the begin page of the website, begin with 1
+
+`video`: the begin video of the page, begin with 1
+
+`ariaHost`: the host of aria2s, such as `name:passwd@my.router`,
+
+`downloadDir`: your download directory
 
 ## Download speed
 

@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blackmatch/pornhub-downloader.git"
+    "url": "git+https://github.com/starpuccino/pornhub-downloader.git"
   },
   "keywords": [
     "crawler",
@@ -24,12 +24,13 @@
   },
   "homepage": "https://github.com/blackmatch/pornhub-downloader#readme",
   "dependencies": {
+    "aria2": "^4.0.3",
     "cheerio": "^1.0.0-rc.2",
     "colors": "^1.2.4",
     "fs-extra": "^4.0.3",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.11",
     "moment": "^2.22.1",
-    "request": "^2.85.0",
+    "request": "^2.88.0",
     "request-progress": "^3.0.0"
   },
   "devDependencies": {

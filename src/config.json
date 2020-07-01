@@ -2,9 +2,13 @@
   "proxyUrl": "",
   "timeout":  0,
   "search": "",
-  "barWidth": 60,
-  "barFullChar": "=",
-  "barEmptyChar": "-",
-  "downloadDir": "./downloads",
-  "pathname": ""
+  "page": 1,
+  "video": 1,
+  "pathname": "",
+  "ariaHost": "localhost",
+  "ariaPort": 6800,
+  "ariaPath": "/jsonrpc",
+  "ariaSecure": false,
+  "ariaSecret": "",
+  "downloadDir": ""
 }
